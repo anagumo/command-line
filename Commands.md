@@ -32,6 +32,7 @@
 * `open -a [app] [arch]`: Abre un archivo específico con una aplicación específica.
 * `bc`: Te permite realizar cálculos matemáticos.
 * `bc [arch]`: Realiza los cálculos de las operaciones escritas en un archivo.
+* `cat [arch]`: Imprime el contenido de un archivo.
 * `more [arch]`: Imprime/pagina el contenido de un archivo.
 * `head`: Imprime las primeras 10 líneas de un archivo.
 *  `tail`: Imprime las últimas 10 líneas de un archivo.
