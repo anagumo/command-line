@@ -1,0 +1,24 @@
+#### Expresiones algebraicas
+x = 3
+y = 4
+
+(2*x) + (3*y)
+
+(3^y) / x
+
+y - 3
+
+(x+y)^2
+
+(x^2) / (y-1)
+
+#### Resultados usando el comando `bc`
+18
+
+27
+
+1
+
+49
+
+3
