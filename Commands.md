@@ -37,3 +37,16 @@
 * `head`: Imprime las primeras 10 líneas de un archivo.
 *  `tail`: Imprime las últimas 10 líneas de un archivo.
 * `wc [arch]`: Imprime el número de líneas, palabras y caracteres de un archivo.
+* `vim`: Editor de texto disponible en la terminal.
+* `date`: Imprime la fecha actual.
+* `uname` : Imprime el nombre del Sistema Operativo.
+* `expr [n+n]`: Evalua expresiones matemáticas.
+* `whoami`: Imprime el nombre de usuario actual.
+
+#### :mag_right: Procesos
+* `echo`: Imprime exactamente lo que le pases como argumento.
+* `echo $PATH`: Imprime el contenido de la variable `$PATH`, es decir, las rutas de directorios que contienen comandos ejecutables.
+* `/usr/bin`: Ejemplo de directorio que contiene un par de comandos ejecutables.
+* `which [command]`: Imprime la ruta desde la que se está ejecutando un commando específico.
+* `top`: Muestra una lista de todos los procesos en ejecución, su commando y PID.
+* `kill -9 [command]`: Mata un proceso específico en ejecución.
