@@ -58,7 +58,7 @@
 * `sl`: Una locomotora atravesará tu terminal cuando por error escribas `sl` y no `ls`.
 * `figlet -f [font] [text]`: Imprime en ascii lo que quieras leer en la terminal.
 * `cowsay [text]`: Imprime en ascii lo que quieras que diga la vaca.
-* `toilet --gay [text]`: Imprime en asccii colorido lo que quieras leer en la terminal.
+* `toilet --gay [text]`: Imprime en ascii colorido lo que quieras leer en la terminal.
 * `aafire`: ¡Prende una fogata!
 * `oneko`: Un gatito tratará de alcanzar tu cursor.
 * `cmatrix`: Tu terminal al estilo matrix.
