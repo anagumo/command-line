@@ -1,0 +1,17 @@
+/* Evaluar las siguientes expresiones algebraicas */
+
+a = 3
+b = 4
+
+2 * a
+
+a + b
+
+(b - a) ^ 2
+
+a * b
+
+b / 2
+
+/* Evaluar y guardar en una sóla línea:
+  `cat input-algebra.bc | bc -q > output-algebra.txt` */
