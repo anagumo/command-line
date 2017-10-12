@@ -66,8 +66,8 @@
 
 #### :computer: Entrada, Salida y Error estándar.
 * `Standar Input` o `stdin`: Es la fuente de entrada de datos para programas ejectudados desde la línea de comandos, ej. teclado.
-* `Standar Output` o `stout`: Salida estándar que imprime datos como resultado de ejecutar un programa, ej. terminal.
+* `Standar Output` o `stdout`: Salida estándar que imprime datos como resultado de ejecutar un programa, ej. terminal.
 * `Standar Error` o `stderr`: Imprime errores mediante una salida estándar como resultado de un fallo al ejecutar un programa.
 * `echo "2 * 3" | bc -q `: Usando pipe podemos tomar la salida de un comando como entrada de otro.
 * `echo Ahoy, World! > [arch]`: Usando `mayor-que` podemos guardar la salida de un comando en un archivo.
-* `bc -q < [arch]`: Usando `menor-que` podemos tomar como entrada de datos un archivo.
+* `bc -q < [arch]`: Usando `menor-que` podemos tomar como entrada de datos un archivo, etc.
