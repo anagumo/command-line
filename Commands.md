@@ -71,3 +71,9 @@
 * `echo "2 * 3" | bc -q `: Usando pipe podemos tomar la salida de un comando como entrada de otro.
 * `echo Ahoy, World! > [arch]`: Usando `mayor-que` podemos guardar la salida de un comando en un archivo.
 * `bc -q < [arch]`: Usando `menor-que` podemos tomar como entrada de datos un archivo, etc.
+
+#### :microscope: Búsqueda en archivos o directorios.
+* `grep [pattern]`: Encuentra coincidencias con base en un patrón específico.
+* `grep ^[word] < [arch]`: Imprime todas las líneas que empiezan con una palabra en específico.
+* `grep [word]$ < [arch]`: Imprime todas las líneas que terminan con una palabra en específico.
+* ej. `cat lorem.txt | grep ^Lorem > output-lorem.txt`: Guarda en un achivo todas las líneas que empiecen con la palabra `Lorem`
