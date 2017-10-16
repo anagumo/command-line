@@ -77,3 +77,6 @@
 * `grep ^[word] < [arch]`: Imprime todas las líneas que empiezan con una palabra en específico.
 * `grep [word]$ < [arch]`: Imprime todas las líneas que terminan con una palabra en específico.
 * ej. `cat lorem.txt | grep ^Lorem > output-lorem.txt`: Guarda en un achivo todas las líneas que empiecen con la palabra `Lorem`
+* `find`: Busca archivos con base en un patrón o nombre específico.
+* ej. `find . -name '*.md' -type f`: Busca coincidencias que en su extensión sean `.md`.
+* ej. `find . -name 'README' -type f -exec mv {} {}.md \;'`: Busca todos los archivos `README` y les agrega la extensión `.md`
