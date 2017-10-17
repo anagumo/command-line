@@ -80,3 +80,11 @@
 * `find`: Busca archivos con base en un patrón o nombre específico.
 * ej. `find . -name '*.md' -type f`: Busca coincidencias que en su extensión sean `.md`.
 * ej. `find . -name 'README' -type f -exec mv {} {}.md \;'`: Busca todos los archivos `README` y les agrega la extensión `.md`
+
+#### :hand: Permisos en archivos o directorios.
+* `chmod [num] [arch]`: Modifica los permisos de un archivo o directorio.
+* `-rwxrwxrwx`: Hace referencia a los permisos de lectura, escritura y ejecución de un archivo o directorio.
+* `-[rwx][rwx][rwx]`: Permisos por bloque 1-Usuario, 2-Grupo, 3-Público.
+
+#### :penguin: Shell Scripting
+* `#!/bin/bash`: Le dice al shell qué programa interpretará el script.
